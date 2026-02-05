@@ -15,7 +15,7 @@
 
 ## 📖 Hakkında
 
-Bu proje, Silkroad Online MMORPG oyununun istemci-sunucu arasındaki ağ trafiğini gerçek zamanlı olarak yakalayıp analiz eden geliştirilmiş bir araçtır. Orijinal açık kaynak projeyi alıp **375+ opcode isim tanımı** ekleyerek paket analizini çok daha anlaşılır hale getirdik.
+Bu proje, Silkroad Online MMORPG oyununun istemci-sunucu arasındaki ağ trafiğini gerçek zamanlı olarak yakalayıp analiz eden geliştirilmiş bir araçtır. Orijinal açık kaynak projeyi alıp **375+ opcode isim tanımı** ekleyerek paket analizini çok daha anlaşılır hale getirdim.
 
 ### 🎯 Ne Yapar?
 
@@ -554,6 +554,7 @@ Bu proje eğitim amaçlı açık kaynak olarak paylaşılmıştır.
 Made with ❤️ for the Silkroad Community
 
 </div>
+
 
 
 
