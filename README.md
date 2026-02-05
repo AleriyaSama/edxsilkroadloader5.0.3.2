@@ -221,13 +221,6 @@ src/edxSilkroadLoader5.sln
    - `edxSilkroadLoader5.exe` - Ana uygulama
    - `edxSilkroadDll5.dll` - Injection DLL
 
-### Hızlı Başlangıç
-
-1. `edxSilkroadLoader5.exe` çalıştırın
-2. Silkroad Online başlatma butonuna tıklayın
-3. Analyzer penceresi otomatik açılır
-4. Paketleri gerçek zamanlı izleyin!
-
 ---
 
 ## 💻 Kullanım
@@ -561,6 +554,7 @@ Bu proje eğitim amaçlı açık kaynak olarak paylaşılmıştır.
 Made with ❤️ for the Silkroad Community
 
 </div>
+
 
 
 
