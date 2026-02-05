@@ -132,6 +132,7 @@ void InitOpcodeNames()
 	opcodeNames[0xB0BD] = "ACTION_RESPONSE_4";
 	
 	// === INVENTORY ===
+	opcodeNames[0x3038] = "INVENTORY_SLOT_UPDATE";
 	opcodeNames[0x3040] = "INVENTORY_ITEM_UPDATE";
 	opcodeNames[0x305C] = "INVENTORY_ITEM_CONSUMED";
 	opcodeNames[0x3092] = "INVENTORY_SIZE_UPDATE";
@@ -1162,5 +1163,6 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
