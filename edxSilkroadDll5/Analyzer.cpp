@@ -374,6 +374,7 @@ void InitOpcodeNames()
 	opcodeNames[0x7474] = "ACADEMY_LEAVE_REQUEST";
 	opcodeNames[0x7475] = "ACADEMY_GRADE_REQUEST";
 	opcodeNames[0x7477] = "ACADEMY_UPDATE_COMMENT_REQUEST";
+	opcodeNames[0x7478] = "HONOR_RANK_LIST_REQUEST";
 	opcodeNames[0x747A] = "ACADEMY_MATCHING_REGISTRATION_REQUEST";
 	opcodeNames[0x747B] = "ACADEMY_MATCHING_CHANGE_REQUEST";
 	opcodeNames[0x747C] = "ACADEMY_MATCHING_DELETE_REQUEST";
@@ -384,6 +385,7 @@ void InitOpcodeNames()
 	opcodeNames[0xB473] = "ACADEMY_KICK_RESPONSE";
 	opcodeNames[0xB474] = "ACADEMY_LEAVE_RESPONSE";
 	opcodeNames[0xB477] = "ACADEMY_UPDATE_COMMENT_RESPONSE";
+	opcodeNames[0xB478] = "HONOR_RANK_LIST_RESPONSE";
 	opcodeNames[0xB47A] = "ACADEMY_MATCHING_REGISTRATION_RESPONSE";
 	opcodeNames[0xB47B] = "ACADEMY_MATCHING_CHANGE_RESPONSE";
 	opcodeNames[0xB47C] = "ACADEMY_MATCHING_DELETE_RESPONSE";
@@ -1166,6 +1168,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
