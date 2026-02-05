@@ -328,6 +328,7 @@ void InitOpcodeNames()
 	// === COS (COMPANION/PET) ===
 	opcodeNames[0x30C8] = "COS_DATA";
 	opcodeNames[0x30C9] = "COS_UPDATE";
+	opcodeNames[0x30CA] = "COS_STATE_UPDATE";
 	opcodeNames[0x70C5] = "COS_COMMAND";
 	opcodeNames[0x70C6] = "COS_TERMINATION_REQUEST";
 	opcodeNames[0x7116] = "COS_UNSUMMON_REQUEST";
@@ -1196,6 +1197,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
