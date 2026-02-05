@@ -133,11 +133,13 @@ void InitOpcodeNames()
 	
 	// === INVENTORY ===
 	opcodeNames[0x3040] = "INVENTORY_ITEM_UPDATE";
+	opcodeNames[0x305C] = "INVENTORY_ITEM_CONSUMED";
 	opcodeNames[0x3092] = "INVENTORY_SIZE_UPDATE";
 	opcodeNames[0x3201] = "INVENTORY_AMMO_UPDATE";
 	opcodeNames[0x7034] = "INVENTORY_ACTION_REQUEST";
 	opcodeNames[0x704C] = "INVENTORY_ITEM_USE_REQUEST";
 	opcodeNames[0xB034] = "INVENTORY_ACTION_RESPONSE";
+	opcodeNames[0xB04C] = "INVENTORY_ITEM_USE_RESPONSE";
 	
 	// === SKILL ===
 	opcodeNames[0x70A1] = "SKILL_LEARN_REQUEST";
@@ -1160,4 +1162,5 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
