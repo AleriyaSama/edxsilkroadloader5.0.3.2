@@ -169,6 +169,7 @@ void InitOpcodeNames()
 	opcodeNames[0x706B] = "PARTY_MATCHING_DELETE_REQUEST";
 	opcodeNames[0x706C] = "PARTY_MATCHING_LIST_REQUEST";
 	opcodeNames[0x706D] = "PARTY_MATCHING_JOIN_REQUEST";
+	opcodeNames[0x7519] = "PARTY_DIMENSION_SUMMON_REQUEST";
 	opcodeNames[0xB060] = "PARTY_CREATE_RESPONSE";
 	opcodeNames[0xB062] = "PARTY_INVITE_RESPONSE";
 	opcodeNames[0xB069] = "PARTY_MATCHING_FORM_RESPONSE";
@@ -176,6 +177,7 @@ void InitOpcodeNames()
 	opcodeNames[0xB06B] = "PARTY_MATCHING_DELETE_RESPONSE";
 	opcodeNames[0xB06C] = "PARTY_MATCHING_LIST_RESPONSE";
 	opcodeNames[0xB06D] = "PARTY_MATCHING_JOIN_RESPONSE";
+	opcodeNames[0xB519] = "PARTY_DIMENSION_SUMMON_RESPONSE";
 	
 	// === GUILD ===
 	opcodeNames[0x3100] = "GUILD_REMOVE";
@@ -1175,6 +1177,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
