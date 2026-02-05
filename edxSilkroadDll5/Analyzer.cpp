@@ -109,6 +109,7 @@ void InitOpcodeNames()
 	opcodeNames[0x30EF] = "ENTITY_UPDATE_HOSTILITY";
 	opcodeNames[0x30FF] = "ENTITY_UPDATE_GUILD";
 	opcodeNames[0x3091] = "ENTITY_EMOTION";
+	opcodeNames[0x3206] = "ENTITY_SCROLL_EFFECT";
 	opcodeNames[0x3207] = "ENTITY_MASK";
 	opcodeNames[0x3256] = "ENTITY_UPDATE_GUILD_NICKNAME";
 	opcodeNames[0xB021] = "ENTITY_UPDATE_MOVEMENT";
@@ -1199,6 +1200,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
