@@ -162,10 +162,6 @@ Tüm opcode'lar mantıksal kategorilere ayrılmış:
 
 **Ve daha fazlası:** Alchemy, Exchange, Stall, Quest, Community, COS (Pet), Academy, Consignment, Silk, Environment...
 
-### 🔍 Akıllı Filtreleme Sistemi
-
-<img src="screens/analyzer_ui.png" alt="Analyzer UI" width="400" align="right">
-
 #### Ignore Opcodes (Kara Liste)
 İstenmeyen paketleri gizleyin. Örneğin sürekli gelen `ENTITY_UPDATE` paketlerini filtreleyerek sadece önemli trafiği görün.
 
@@ -580,5 +576,6 @@ Bu proje eğitim amaçlı açık kaynak olarak paylaşılmıştır.
 Made with ❤️ for the Silkroad Community
 
 </div>
+
 
 
