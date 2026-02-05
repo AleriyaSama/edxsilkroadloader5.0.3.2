@@ -1,0 +1,138 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 316, 388
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "edxSilkroadLoader5"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_DIRS,14,18,289,71,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_COUNTRY,42,91,49,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_LANGUAGE,134,91,50,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_LOCALE,216,91,25,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_VERSION,278,91,25,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Add",IDC_ADD,14,108,50,14
+    PUSHBUTTON      "Refresh",IDC_REFRESH,94,108,50,14
+    PUSHBUTTON      "Open",IDC_OPEN,173,108,50,14
+    PUSHBUTTON      "Remove",IDC_REMOVE,253,108,50,14
+    LISTBOX         IDC_DIVS,14,154,90,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_HOSTS,112,154,136,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_PORTS,255,154,48,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "English Patch (not isro)",IDC_PATCH_ENGLISH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,236,89,10
+    CONTROL         "Multiclient",IDC_PATCH_MULTI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,132,236,47,10
+    CONTROL         "Debug Console",IDC_PATCH_CONSOLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,236,64,10
+    CONTROL         "Swear Filter",IDC_PATCH_SWEAR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,270,54,10
+    CONTROL         "Nude Patch",IDC_PATCH_NUDE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,132,253,53,10
+    CONTROL         "Zoom Hack",IDC_PATCH_ZOOM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,239,253,51,10
+    CONTROL         "Korean Captcha Hook (ksro)",IDC_PATCH_KOREA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,270,106,10
+    CONTROL         "NOP Hackshield (isro/ksro)",IDC_PATCH_HS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,132,270,100,10
+    CONTROL         "Redirect Gateway Server:",IDC_PATCH_REDIRECT_GWS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,287,99,10
+    EDITTEXT        IDC_PATCH_GWS_IP,132,284,88,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PATCH_GWS_PORT,239,284,56,14,ES_AUTOHSCROLL
+    CONTROL         "Redirect Agent Server:",IDC_PATCH_REDIRECT_AGS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,304,90,10
+    EDITTEXT        IDC_PATCH_AGS_IP,132,301,88,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PATCH_AGS_PORT,239,301,56,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Open Config File",IDC_CONFIG,14,360,70,14
+    PUSHBUTTON      "Launch!",IDC_LAUNCH,247,360,56,14
+    GROUPBOX        "Step 1: Configure Silkroad Directories",IDC_STATIC,7,7,302,120
+    GROUPBOX        "Step 2: Select Gateway Server",IDC_STATIC,7,133,302,83
+    LTEXT           "Region:",IDC_STATIC,14,94,26,8
+    LTEXT           "Language:",IDC_STATIC,97,94,35,8
+    LTEXT           "Locale:",IDC_STATIC,189,94,24,8
+    LTEXT           "Version:",IDC_STATIC,248,94,27,8
+    LTEXT           "Division Servers",IDC_STATIC,30,144,52,8
+    LTEXT           "Hosts",IDC_STATIC,169,144,19,8
+    LTEXT           "Ports",IDC_STATIC,269,144,18,8
+    GROUPBOX        "Step 3: Configure Patches",IDC_STATIC,7,223,302,115
+    GROUPBOX        "Step 4: Start the Client",IDC_STATIC,7,346,302,35
+    CONTROL         "Hook Input (not ksro)",IDC_PATCH_INPUT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,253,85,10
+    CONTROL         "Patch Seed",IDC_SEED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,322,52,10
+    CONTROL         "Packet Auto-Parser (new SRO only)",IDC_AUTO_PARSE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,132,322,130,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 381
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
