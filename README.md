@@ -518,11 +518,6 @@ Network protokolleri ve paket analizi öğrenin.
 
 Bu araç **yalnızca eğitim ve araştırma amaçlıdır**. 
 
-- ⚖️ Oyunun Hizmet Şartları'na uygun kullanılmalıdır
-- 🚫 Online oyunda haksız avantaj sağlamak için kullanmayın
-- 📚 Protokol analizi ve öğrenme için tasarlanmıştır
-- 🔬 Kendi test sunucularınızda kullanmanız önerilir
-
 **NOT:** Bu aracı kullanarak oyunun kurallarını ihlal etmekten kaynaklanan tüm sorumluluk kullanıcıya aittir.
 
 ---
@@ -576,6 +571,7 @@ Bu proje eğitim amaçlı açık kaynak olarak paylaşılmıştır.
 Made with ❤️ for the Silkroad Community
 
 </div>
+
 
 
 
