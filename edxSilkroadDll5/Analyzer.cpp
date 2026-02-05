@@ -320,6 +320,7 @@ void InitOpcodeNames()
 	opcodeNames[0x30C9] = "COS_UPDATE";
 	opcodeNames[0x70C5] = "COS_COMMAND";
 	opcodeNames[0x70C6] = "COS_TERMINATION_REQUEST";
+	opcodeNames[0x7116] = "COS_UNSUMMON_REQUEST";
 	opcodeNames[0x70CB] = "COS_UPDATE_MOUNTSTATE_REQUEST";
 	opcodeNames[0x7117] = "COS_NAMING_OR_UNSUMMON_REQUEST";
 	opcodeNames[0x7420] = "COS_UPDATE_SETTINGS_REQUEST";
@@ -1173,6 +1174,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
