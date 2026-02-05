@@ -4,7 +4,6 @@
 
 ![Version](https://img.shields.io/badge/version-5.0.3.2-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
-![License](https://img.shields.io/badge/license-Educational-green)
 
 **Gerçek zamanlı paket analizi için geliştirilmiş, kullanıcı dostu Silkroad Online paket yakalama aracı**
 
@@ -582,3 +581,4 @@ Bu proje eğitim amaçlı açık kaynak olarak paylaşılmıştır.
 Made with ❤️ for the Silkroad Community
 
 </div>
+
