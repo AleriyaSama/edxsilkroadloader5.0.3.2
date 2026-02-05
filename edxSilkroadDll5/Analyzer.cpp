@@ -240,6 +240,7 @@ void InitOpcodeNames()
 	opcodeNames[0x7150] = "ALCHEMY_STRENGTHENING_REQUEST";
 	opcodeNames[0x7155] = "ALCHEMY_DISJOIN_REQUEST";
 	opcodeNames[0x7157] = "ALCHEMY_DISMANTLE_REQUEST";
+	opcodeNames[0xB150] = "ALCHEMY_STRENGTHENING_RESPONSE";
 	opcodeNames[0xB155] = "ALCHEMY_DISJOIN_RESPONSE";
 	opcodeNames[0xB157] = "ALCHEMY_DISMANTLE_RESPONSE";
 	
@@ -1172,6 +1173,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
