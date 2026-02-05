@@ -121,10 +121,12 @@ void InitOpcodeNames()
 	
 	// === ACTION/COMBAT ===
 	opcodeNames[0x7045] = "ACTION_SELECT_REQUEST";
+	opcodeNames[0x7046] = "ACTION_TALK_REQUEST";
 	opcodeNames[0x704B] = "ACTION_DESELECT_REQUEST";
 	opcodeNames[0x705B] = "ACTION_CANCEL_REQUEST";
 	opcodeNames[0x7074] = "ACTION_COMMAND_REQUEST";
 	opcodeNames[0xB045] = "ACTION_SELECT_RESPONSE";
+	opcodeNames[0xB046] = "ACTION_TALK_RESPONSE";
 	opcodeNames[0xB04B] = "ACTION_DESELECT_RESPONSE";
 	opcodeNames[0xB070] = "ACTION_RESPONSE_1";
 	opcodeNames[0xB071] = "ACTION_RESPONSE_2";
@@ -1164,6 +1166,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
