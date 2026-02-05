@@ -1,0 +1,10 @@
+﻿  Analyzer.cpp
+     C:\Users\turem\Downloads\Compressed\edxSilkroadLoader5_0_3_2\src\Release\edxSilkroadDll5.lib kitaplığı ve C:\Users\turem\Downloads\Compressed\edxSilkroadLoader5_0_3_2\src\Release\edxSilkroadDll5.exp nesnesi oluşturuluyor
+  Kod üretiliyor
+  1 of 1612 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    9 functions had inline decision re-evaluated but remain unchanged
+  Kodun üretilmesi tamamlandı
+  edxSilkroadDll5.vcxproj -> C:\Users\turem\Downloads\Compressed\edxSilkroadLoader5_0_3_2\src\Release\edxSilkroadDll5.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

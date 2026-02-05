@@ -1,0 +1,121 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 587, 454
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "edxSilkroadLoader5 Analyzer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_IGNORE_OPCODE,459,29,40,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_IGNORE_ADD,511,29,50,14
+    LISTBOX         IDC_IGNORE_LIST,481,54,80,88,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Remove",IDC_IGNORE_REMOVE,424,54,50,14
+    PUSHBUTTON      "Remove All",IDC_IGNORE_RESET,424,128,50,14
+    EDITTEXT        IDC_ALLOW_OPCODE,459,174,40,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",IDC_ALLOW_ADD,511,174,50,14
+    LISTBOX         IDC_ALLOW_LIST,481,199,80,88,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Remove",IDC_ALLOW_REMOVE,424,199,50,14
+    PUSHBUTTON      "Remove All",IDC_ALLOW_RESET,424,273,50,14
+    CONTROL         "File Logging",IDC_FILELOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,424,316,63,10
+    CONTROL         "Client->Server",IDC_C2S,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,424,333,63,10
+    CONTROL         "Server->Client",IDC_S2C,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,497,333,63,10
+    PUSHBUTTON      "Clear View",IDC_VIEW_CLEAR,431,419,50,14
+    PUSHBUTTON      "Save View",IDC_VIEW_SAVE,506,419,50,14
+    CONTROL         "Enable Logging",IDC_CLIENT_ON,"Button",BS_AUTORADIOBUTTON,424,351,64,10
+    CONTROL         "Disable Logging",IDC_CLIENT_OFF,"Button",BS_AUTORADIOBUTTON,497,351,65,10
+    CONTROL         "",IDC_LOG_AREA,"Static",SS_BLACKFRAME,7,7,387,440
+    GROUPBOX        "",IDC_STATIC,406,7,174,440
+    LTEXT           "Opcode",IDC_STATIC,427,176,26,8
+    GROUPBOX        "Show Only Opcodes",IDC_STATIC,417,160,150,133
+    LTEXT           "Opcode",IDC_STATIC,427,31,26,8
+    GROUPBOX        "Ignore Opcodes",IDC_STATIC,417,18,150,133
+    GROUPBOX        "General Options",IDC_STATIC,417,302,150,67
+    GROUPBOX        "Commands",IDC_STATIC,418,378,150,63
+    PUSHBUTTON      "Open Output Directory",IDC_SHOW_DIR,431,392,125,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 580
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 447
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
