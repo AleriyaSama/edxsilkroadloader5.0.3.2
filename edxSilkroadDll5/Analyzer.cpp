@@ -293,6 +293,7 @@ void InitOpcodeNames()
 	// === QUEST ===
 	opcodeNames[0x30D4] = "QUEST_UPDATE_1";
 	opcodeNames[0x30D5] = "QUEST_UPDATE_2";
+	opcodeNames[0x30D7] = "QUEST_COMPLETE";
 	opcodeNames[0x30E7] = "QUEST_UPDATE_3";
 	opcodeNames[0x30EC] = "QUEST_UPDATE_4";
 	opcodeNames[0x3514] = "QUEST_UPDATE_5";
@@ -1203,6 +1204,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
