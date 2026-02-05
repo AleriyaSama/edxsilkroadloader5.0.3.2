@@ -204,7 +204,7 @@ E0 FF                                    ................
 
 1. **Projeyi klonlayın:**
 ```bash
-git clone https://github.com/yourusername/edxSilkroadLoader5.git
+git clone https://github.com/AleriyaSama/edxSilkroadLoader5.git
 cd edxSilkroadLoader5
 ```
 
@@ -554,6 +554,7 @@ Bu proje eğitim amaçlı açık kaynak olarak paylaşılmıştır.
 Made with ❤️ for the Silkroad Community
 
 </div>
+
 
 
 
