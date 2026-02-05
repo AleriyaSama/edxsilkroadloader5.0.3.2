@@ -413,6 +413,7 @@ void InitOpcodeNames()
 	
 	// === OPERATOR ===
 	opcodeNames[0x7010] = "OPERATOR_REQUEST";
+	opcodeNames[0xB010] = "OPERATOR_RESPONSE";
 	
 	// === OTHER ===
 	opcodeNames[0x300C] = "NOTIFY";
@@ -1159,3 +1160,4 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
