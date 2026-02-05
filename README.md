@@ -542,14 +542,6 @@ Katkılarınızı bekliyoruz!
 
 ---
 
-## 📞 İletişim & Destek
-
-- 🐛 **Bug Bildirimi:** [Issues](https://github.com/yourusername/edxSilkroadLoader5/issues)
-- 💬 **Tartışma:** [Discussions](https://github.com/yourusername/edxSilkroadLoader5/discussions)
-- 📧 **Email:** your.email@example.com
-
----
-
 ## 🙏 Teşekkürler
 
 - Orijinal **edxSilkroadLoader** projesi geliştiricilerine
@@ -571,6 +563,7 @@ Bu proje eğitim amaçlı açık kaynak olarak paylaşılmıştır.
 Made with ❤️ for the Silkroad Community
 
 </div>
+
 
 
 
