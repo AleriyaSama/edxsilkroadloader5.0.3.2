@@ -438,6 +438,10 @@ void InitOpcodeNames()
 	opcodeNames[0x74E0] = "TAP_UPDATE_REQUEST";
 	opcodeNames[0xB4DF] = "TAP_INFO_RESPONSE";
 	opcodeNames[0xB4E0] = "TAP_UPDATE_RESPONSE";
+
+	// === TRADE ===
+	opcodeNames[0x74D4] = "TRADE_EXPORT_PRICES_REQUEST";
+	opcodeNames[0xB4D4] = "TRADE_EXPORT_PRICES_RESPONSE";
 	
 	// === GUIDE ===
 	opcodeNames[0x70EA] = "GUIDE_REQUEST";
@@ -1192,6 +1196,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
