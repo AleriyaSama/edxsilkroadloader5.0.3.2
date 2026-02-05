@@ -80,12 +80,14 @@ void InitOpcodeNames()
 	opcodeNames[0x704F] = "CHARACTER_CHANGE_MOVESTATE_REQUEST";
 	opcodeNames[0x7050] = "CHARACTER_INCREASE_STR_REQUEST";
 	opcodeNames[0x7051] = "CHARACTER_INCREASE_INT_REQUEST";
+	opcodeNames[0x7059] = "CHARACTER_CHANGE_RESURRECT_POINT_REQUEST";
 	opcodeNames[0x7158] = "CHARACTER_CLIENTINFO_UPDATE";
 	opcodeNames[0x7402] = "CHARACTER_UPDATE_AUTOINVEST";
 	opcodeNames[0x7516] = "CHARACTER_CHANGE_PVPCAPE_REQUEST";
 	opcodeNames[0x70A7] = "CHARACTER_CHANGE_BODYSTATE_REQUEST";
 	opcodeNames[0xB050] = "CHARACTER_INCREASE_STR_RESPONSE";
 	opcodeNames[0xB051] = "CHARACTER_INCREASE_INT_RESPONSE";
+	opcodeNames[0xB059] = "CHARACTER_CHANGE_RESURRECT_POINT_RESPONSE";
 	opcodeNames[0xB0A7] = "CHARACTER_CHANGE_BODYSTATE_RESPONSE";
 	opcodeNames[0xB516] = "CHARACTER_CHANGE_PVPCAPE_RESPONSE";
 	
@@ -1186,6 +1188,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
