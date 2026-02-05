@@ -309,6 +309,7 @@ void InitOpcodeNames()
 	opcodeNames[0xB30D] = "COMMUNITY_BLOCK_UPDATE_RESPONSE";
 	
 	// === FORTRESS ===
+	opcodeNames[0x34D2] = "FORTRESS_BATTLE_ARENA_UPDATE";
 	opcodeNames[0x385F] = "FORTRESS_UPDATE";
 	opcodeNames[0x705D] = "FORTRESS_RETURN_REQUEST";
 	opcodeNames[0x705E] = "FORTRESS_ACTION_REQUEST";
@@ -1174,6 +1175,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
