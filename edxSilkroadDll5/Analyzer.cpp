@@ -399,8 +399,10 @@ void InitOpcodeNames()
 	// === SILK ===
 	opcodeNames[0x3153] = "SILK_UPDATE";
 	opcodeNames[0x7118] = "MAGIC_POP_REQUEST";
+	opcodeNames[0x7119] = "MAGIC_POP_CLAIM_REWARD_REQUEST";
 	opcodeNames[0x711A] = "SILK_HISTORY_REQUEST";
 	opcodeNames[0xB118] = "MAGIC_POP_RESPONSE";
+	opcodeNames[0xB119] = "MAGIC_POP_CLAIM_REWARD_RESPONSE";
 	opcodeNames[0xB11A] = "SILK_HISTORY_RESPONSE";
 	
 	// === LOGOUT ===
@@ -1170,6 +1172,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
