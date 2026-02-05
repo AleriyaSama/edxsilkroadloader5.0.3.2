@@ -144,6 +144,11 @@ void InitOpcodeNames()
 	opcodeNames[0x704C] = "INVENTORY_ITEM_USE_REQUEST";
 	opcodeNames[0xB034] = "INVENTORY_ACTION_RESPONSE";
 	opcodeNames[0xB04C] = "INVENTORY_ITEM_USE_RESPONSE";
+
+	// === STORAGE ===
+	opcodeNames[0x3047] = "STORAGE_OPEN_RESPONSE";
+	opcodeNames[0x3049] = "STORAGE_SIZE"; // 6 * 5 * 5 = 150 pages
+	opcodeNames[0x703C] = "STORAGE_OPEN_REQUEST";
 	
 	// === SKILL ===
 	opcodeNames[0x70A1] = "SKILL_LEARN_REQUEST";
@@ -1177,6 +1182,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
