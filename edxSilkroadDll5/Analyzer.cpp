@@ -454,11 +454,14 @@ void InitOpcodeNames()
 	// === OPERATOR ===
 	opcodeNames[0x7010] = "OPERATOR_REQUEST";
 	opcodeNames[0xB010] = "OPERATOR_RESPONSE";
+
+	// === TELEPORT ===
+	opcodeNames[0x705A] = "TELEPORT_EXECUTE_REQUEST";
+	opcodeNames[0xB05A] = "TELEPORT_EXECUTE_RESPONSE";
 	
 	// === OTHER ===
 	opcodeNames[0x300C] = "NOTIFY";
 	opcodeNames[0x3080] = "INVITE_REQUEST_OR_RESPONSE";
-	opcodeNames[0xB05A] = "TELEPORT_ACK";
 }
 
 const char* GetOpcodeName(WORD opcode)
@@ -1200,6 +1203,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
