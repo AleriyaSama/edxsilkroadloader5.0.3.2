@@ -293,11 +293,13 @@ void InitOpcodeNames()
 	// === QUEST ===
 	opcodeNames[0x30D4] = "QUEST_UPDATE_1";
 	opcodeNames[0x30D5] = "QUEST_UPDATE_2";
-	opcodeNames[0x30D7] = "QUEST_COMPLETE";
+	opcodeNames[0x30D7] = "QUEST_SERVER_TIME";
 	opcodeNames[0x30E7] = "QUEST_UPDATE_3";
 	opcodeNames[0x30EC] = "QUEST_UPDATE_4";
 	opcodeNames[0x3514] = "QUEST_UPDATE_5";
+	opcodeNames[0x70D9] = "QUEST_ABANDON_REQUEST";
 	opcodeNames[0x7515] = "QUEST_REQUEST";
+	opcodeNames[0xB0D9] = "QUEST_ABANDON_RESPONSE";
 	opcodeNames[0xB515] = "QUEST_RESPONSE";
 	
 	// === COMMUNITY (FRIEND/MEMO) ===
@@ -1204,6 +1206,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
