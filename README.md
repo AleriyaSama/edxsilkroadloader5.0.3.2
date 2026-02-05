@@ -440,7 +440,6 @@ using std::uint32_t;
 Tüm opcode tanımları `Docs/` klasöründeki resmi dokümantasyondan alınmıştır:
 
 ```
-Docs/
 ├── GLOBAL/              # 13 opcode
 ├── GATEWAY/             # 17 opcode
 ├── DOWNLOAD/            # 3 opcode
@@ -581,4 +580,5 @@ Bu proje eğitim amaçlı açık kaynak olarak paylaşılmıştır.
 Made with ❤️ for the Silkroad Community
 
 </div>
+
 
