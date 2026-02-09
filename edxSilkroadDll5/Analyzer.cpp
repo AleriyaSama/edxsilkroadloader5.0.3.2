@@ -65,6 +65,7 @@ void InitOpcodeNames()
 	opcodeNames[0xB450] = "CHARACTER_SELECTION_RENAME_RESPONSE";
 	
 	// === CHARACTER ===
+	opcodeNames[0x3011] = "CHARACTER_DEATH";
 	opcodeNames[0x3012] = "CHARACTER_TELEPORT_COMPLETE";
 	opcodeNames[0x3013] = "CHARACTER_DATA";
 	opcodeNames[0x303D] = "CHARACTER_STATS";
@@ -349,6 +350,7 @@ void InitOpcodeNames()
 	// === PK (PLAYER KILL) ===
 	opcodeNames[0x30CD] = "PK_UPDATE_PENALTY";
 	opcodeNames[0x30CE] = "PK_UPDATE_DAILY";
+	opcodeNames[0x30D2] = "DEATH_PENALTY_INFO";
 	opcodeNames[0x30D3] = "PK_UPDATE_LEVEL";
 	
 	// === CONSIGNMENT ===
@@ -1207,6 +1209,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
