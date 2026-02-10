@@ -425,6 +425,10 @@ void InitOpcodeNames()
 	// === AUTH ===
 	opcodeNames[0x6103] = "AUTH_REQUEST";
 	opcodeNames[0xA103] = "AUTH_RESPONSE";
+
+	// === BUFF ===
+	opcodeNames[0x3159] = "BUFF_ITEM_CHAIN";
+	opcodeNames[0x325F] = "BUFF_TITLE_ACTIVATE";
 	
 	// === SILK ===
 	opcodeNames[0x3153] = "SILK_UPDATE";
@@ -1209,6 +1213,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
