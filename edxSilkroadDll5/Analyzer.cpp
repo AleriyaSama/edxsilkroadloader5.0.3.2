@@ -428,7 +428,9 @@ void InitOpcodeNames()
 
 	// === BUFF ===
 	opcodeNames[0x3159] = "BUFF_ITEM_CHAIN";
+	opcodeNames[0x315B] = "BUFF_ITEM_ACTIVE";
 	opcodeNames[0x325F] = "BUFF_TITLE_ACTIVATE";
+	opcodeNames[0x3261] = "BUFF_TITLE_STATUS";
 	
 	// === SILK ===
 	opcodeNames[0x3153] = "SILK_UPDATE";
@@ -1213,6 +1215,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
