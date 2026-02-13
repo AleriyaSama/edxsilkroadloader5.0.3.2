@@ -419,9 +419,11 @@ void InitOpcodeNames()
 
 	// === JOB ===
 	opcodeNames[0x70E1] = "JOB_LEAGUE_JOIN_REQUEST";
+	opcodeNames[0x70E3] = "JOB_ALIAS_REQUEST";
 	opcodeNames[0x70E4] = "JOB_RANKING_REQUEST";
 	opcodeNames[0x70E6] = "JOB_PREVIOUS_INFO_REQUEST";
 	opcodeNames[0xB0E1] = "JOB_LEAGUE_JOIN_RESPONSE";
+	opcodeNames[0xB0E3] = "JOB_ALIAS_RESPONSE";
 	opcodeNames[0xB0E4] = "JOB_RANKING_RESPONSE";
 	opcodeNames[0xB0E6] = "JOB_PREVIOUS_INFO_RESPONSE";
 	
@@ -1218,6 +1220,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
