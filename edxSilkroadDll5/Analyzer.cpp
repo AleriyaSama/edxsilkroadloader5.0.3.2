@@ -419,6 +419,7 @@ void InitOpcodeNames()
 
 	// === JOB ===
 	opcodeNames[0x30E0] = "JOB_TRANSPORT_CARGO_LIST";
+	opcodeNames[0x30E6] = "JOB_TRADE_EXPERIENCE_TOTAL";
 	opcodeNames[0x30E8] = "JOB_CONTRIBUTION_UPDATE";
 	opcodeNames[0x34D5] = "JOB_UPDATE";
 	opcodeNames[0x70E1] = "JOB_LEAGUE_JOIN_REQUEST";
@@ -1223,6 +1224,7 @@ std::vector<DWORD> GetIgnoredOpcodes()
 }
 
 //-----------------------------------------------------------------------------
+
 
 
 
