@@ -84,7 +84,7 @@ Tüm opcode'lar mantıksal kategorilere ayrılmış:
 <details>
 <summary><b>👤 CHARACTER (23 opcode)</b></summary>
 
-- Karakter seçimi
+- Character Selection
 - Hareket (movement)
 - Teleport
 - Stat artırma
