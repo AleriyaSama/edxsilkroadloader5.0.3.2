@@ -53,7 +53,7 @@ Tüm paketler artık anlamlı isimlerle gösteriliyor:
 [Client -> Server][0x7021 - CHARACTER_MOVEMENT_REQUEST]
 [Server -> Client][0x3015 - ENTITY_SPAWN]
 [Client -> Server][0x7025 - CHAT_REQUEST]
-[Server -> Client][0xB025 - CHAT_RESPONSE]
+[Server -> Client][0xB025 - CHAT_RESPONSES]
 ```
 
 ### 📂 Kategorize Edilmiş Opcode'lar
